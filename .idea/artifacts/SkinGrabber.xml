@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="SkinGrabber">
+    <output-path>$PROJECT_DIR$/out/artifacts/SkinGrabber</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="SkinGrabber" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="SkinGrabber.jar">
+        <element id="module-output" name="SkinGrabber" />
+      </element>
+    </root>
+  </artifact>
+</component>

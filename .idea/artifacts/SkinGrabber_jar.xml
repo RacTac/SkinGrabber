@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SkinGrabber:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SkinGrabber_jar</output-path>
+    <root id="archive" name="SkinGrabber.jar">
+      <element id="module-output" name="SkinGrabber" />
+    </root>
+  </artifact>
+</component>

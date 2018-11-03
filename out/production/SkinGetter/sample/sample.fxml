@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="210.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="textfield" layoutX="21.0" layoutY="14.0" onAction="#onEnter" prefHeight="25.0" prefWidth="190.0" promptText="Player name" />
+      <Button fx:id="search" layoutX="219.0" layoutY="14.0" mnemonicParsing="false" onAction="#onEnter" prefHeight="25.0" prefWidth="72.0" text="Search" />
+      <Button fx:id="cancel" layoutX="216.0" layoutY="173.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="25.0" prefWidth="72.0" text="Cancel" />
+      <Button fx:id="save" layoutX="134.0" layoutY="173.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="72.0" text="Save" />
+      <ImageView fx:id="skinImage" fitHeight="80.0" fitWidth="80.0" layoutX="110.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="notify" contentDisplay="TEXT_ONLY" layoutX="21.0" layoutY="45.0" prefHeight="17.0" prefWidth="271.0" />
+      <Label fx:id="skinOf" alignment="CENTER" layoutX="15.0" layoutY="140.0" prefHeight="17.0" prefWidth="271.0">
+         <font>
+            <Font name="Alte Haas Grotesk" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
